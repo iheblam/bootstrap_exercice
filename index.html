@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Document</title>
+  </head>
+  <body class="bg-secondary bg-gradient  bg-opacity-30">
+    <div class="container ">
+        <nav class="navbar  navbar-expand-lg bg-dark bg-gradient rounded mb-3">
+            <div class="container-fluid ">
+              <a class="navbar-brand text-light fst-italic" href="#">Lamouchi</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item " href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      <div class="row ">
+        <div class="col-md-6">
+            <form class="was-validated bg-dark bg-gradient rounded p-3">
+                <div class="row mt-3 p-2">
+                    <div class="col-2">
+                        <label for="name" class="form-label text-light">name</label>
+                        
+
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="form-control" id="name" name="name" required >
+
+                    </div>
+                </div>
+                <div class="row mt-3 p-2">
+                    <div class="col-2">
+                        <label for="prenom" class="form-label text-light">username</label>
+                        
+
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="form-control" id="prenom" name="name" required >
+
+                    </div>
+                </div>
+                <div class="row mt-3 p-2">
+                    <div class="col-2">
+                        <label for="age" class="form-label text-light">age</label>
+                        
+
+                    </div>
+                    <div class="col-auto">
+                        <input type="range" class="form-range" min="0" max="5" step="0.5" id="age">
+                    </div>
+                </div>
+
+                <div class="row mt-3 p-2">
+                    <div class="col-2">
+                        <label for="gender" class="form-label text-light">gender</label>
+                        
+
+                    </div>
+                    <div class="col-auto">
+                        <select class="form-select" aria-label="Default select example">    
+                            <option selected>Open this select menu</option>
+                            <option value="1">man</option>
+                            <option value="2">women</option>
+                            <option value="3">other</option>
+                          </select>
+                        
+                    </div>
+                </div>
+                <div class="row mt-3 p-2">
+                    <div class="col-md-auto">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label text-light" for="flexRadioDefault1">
+                              single
+                            </label>
+                          </div>
+
+                    </div>
+                    <div class="col-md-auto">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label text-light" for="flexRadioDefault2">
+                              maried
+                            </label>
+                          </div>
+
+                    </div>
+                    
+                      
+
+                </div>
+                <div class="row mt-3 p-3">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label text-light" for="flexSwitchCheckDefault">accept terms</label>
+                      </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-5"></div>
+                    <div class="col-auto">
+                        <button class="btn btn-light" type="submit">Log in</button>
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+
+        <div class="col-md-6">
+            <form class="was-validated bg-dark bg-gradient rounded p-3 mt-3">
+                <div class="row mt-3 p-2">
+                    <div class="col-2">
+                        <label for="name" class="form-label text-light">username</label>
+                        
+
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="form-control" id="name" name="name" required >
+
+                    </div>
+                </div>
+                <div class="row mt-3 p-2">
+                    <div class="col-2">
+                        <label for="prenom" class="form-label text-light">password</label>
+                        
+
+                    </div>
+                    <div class="col-auto">
+                        <input type="password" class="form-control" id="prenom" name="name" required >
+
+                    </div>
+                </div>
+                
+
+                
+                
+                <div class="row mt-3 p-3">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label text-light" for="flexSwitchCheckDefault">accept terms</label>
+                      </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-5"></div>
+                    <div class="col-auto">
+                        <button class="btn btn-light" type="submit">Sign up</button>
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+
+
+      </div>
+      <div class="row mt-3 p-3">
+        <div class="col-md-3 p-2 mt-3">
+            <div class="card  bg-dark bg-gradient text-light fst-italic " style="width: 18rem;">
+                <img src="./images/i2.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-light">Go somewhere</a>
+                </div>
+              </div>
+
+        </div>
+        <div class="col-md-3 p-2 mt-3">
+            <div class="card  bg-dark bg-gradient text-light fst-italic" style="width: 18rem;">
+                <img src="./images/i1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-light">Go somewhere</a>
+                </div>
+              </div>
+
+        </div>
+        <div class="col-md-3 p-2 mt-3">
+            <div class="card  bg-dark bg-gradient text-light fst-italic" style="width: 18rem;">
+                <img src="./images/i2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-light">Go somewhere</a>
+                </div>
+              </div>
+
+        </div>
+        <div class="col-md-3 p-2 mt-3">
+            <div class="card  bg-dark bg-gradient text-light fst-italic" style="width: 18rem;">
+                <img src="./images/i1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-light">Go somewhere</a>
+                </div>
+              </div>
+
+        </div>
+        
+      </div>
+
+
+    </div>
+    <footer>
+
+    </footer>
+  </body>
+</html>
